@@ -66,7 +66,7 @@ const create = async function (options) {
       "base64"
     )}`,
     jigsawImage: `data:image/jpg;base64,${jigsawImage.toString("base64")}`,
-    left,
+    x: left,
   };
 };
 

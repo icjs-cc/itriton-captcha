@@ -10,10 +10,34 @@
 ```
 const captcha = require('@itriton/captcha')
 
+// 默认
 captcha.create().then(res=>{
     console.log(res)
 })
+
+// 自定义参数
+captcha.create(options).then(res=>{
+    console.log(res)
+})
 ```
+
+
+#### 参数
+
+| 属性名    | 类型    | 默认值     | 说明              |
+| --------- | ------- | ---------- | ----------------- |
+| size    | Number  | 30         | 默认拼图大小        |
+| width    | Number  | 270         | 图片宽度(px)        |
+| height  | Number  | 144 | 图片高度(px)  |
+| url  | String  | - | 图片路径  |
+
+#### 返回值
+
+| 属性名    | 类型    | 说明     |
+| --------- | ------- | ---------- |
+| backgroundImage    | Base64  | 背景图片        |
+| jigsawImage    | Base64  | 拼图图片       |
+| x  | Number  |   x轴距离|
 
 ### 安装sharp失败的解决方案  
 
