@@ -1,0 +1,24 @@
+{
+  "name": "@itriton/captcha",
+  "version": "0.2.0",
+  "description": "生成滑动验证码拼图图片和背景图片",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitee.com/ibaleine-open-source/itriton-captcha.git"
+  },
+  "keywords": [
+    "@itriton/captcha",
+    "@itriton",
+    "captcha"
+  ],
+  "author": "icjs-cc",
+  "license": "MIT",
+  "dependencies": {
+    "sharp": "^0.29.1"
+  },
+  "devDependencies": {}
+}
