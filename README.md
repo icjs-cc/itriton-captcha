@@ -10,15 +10,25 @@
 ```
 const captcha = require('@itriton/captcha')
 
-// 默认
+// 默认(promise)
 captcha.create().then(res=>{
     console.log(res)
 })
 
-// 自定义参数
+// 自定义参数(promise)
 captcha.create(options).then(res=>{
     console.log(res)
 })
+
+// 默认(async/await)
+async function captcha(){
+   const result = await captcha.create()
+}
+
+// 自定义参数(async/await)
+async function captcha(){
+   const result = await captcha.create(options)
+}
 ```
 
 

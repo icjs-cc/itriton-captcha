@@ -16,6 +16,7 @@ const create = async function (options) {
   const left = randomRangeNum(size, width - size);
   const top = randomRangeNum(size, height - size);
   const border = 1;
+  
   // Generate Jigsaw Image
   const jigsawBaseImage = await sharp(baseImage)
     .extract({ left: 0, top: top, width: size, height: size })
