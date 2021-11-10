@@ -1,22 +1,29 @@
 const sharp = require("sharp");
-const path = require("path")
-const url = path.join(__dirname, "./images/default.jpeg")
+const path = require("path");
+const axios = require("axios");
+
+const url = path.join(__dirname, "./images/default.jpeg");
 
 const opts = {
   width: 270,
   height: 144,
   size: 30,
-  url
+  url,
 };
 
 const create = async function (options) {
   options = Object.assign({}, opts, options);
   const { width, height, size, url } = options;
-  const baseImage = await sharp(url).resize(width, height).png().toBuffer();
+  let image = url;
+  if (isUrl(url)) {
+    const axiosData = await axios({ url, responseType: "arraybuffer" });
+    image = axiosData.data;
+  }
+  const baseImage = await sharp(image).resize(width, height).png().toBuffer();
   const left = randomRangeNum(size, width - size);
   const top = randomRangeNum(size, height - size);
   const border = 1;
-  
+
   // Generate Jigsaw Image
   const jigsawBaseImage = await sharp(baseImage)
     .extract({ left: 0, top: top, width: size, height: size })
@@ -70,6 +77,13 @@ const create = async function (options) {
     x: left,
   };
 };
+
+function isUrl(url) {
+  if (/^http|https:\/\/.*/i.test(url)) {
+    return true;
+  }
+  return false;
+}
 
 function randomRangeNum(min, max) {
   const range = max - min;
