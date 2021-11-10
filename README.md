@@ -39,7 +39,7 @@ async function captcha(){
 | size    | Number  | 30         | 默认拼图大小        |
 | width    | Number  | 270         | 图片宽度(px)        |
 | height  | Number  | 144 | 图片高度(px)  |
-| url  | String  | - | 图片路径  |
+| url  | String  | - | 图片路径（支持在线地址）  |
 
 #### 返回值
 
