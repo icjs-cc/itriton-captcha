@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "node test.js",
-    "version patch": "npm version patch -m `🚀 发布新版本`",
-    "version minor": "npm version minor -m `🚀 发布新版本`",
-    "version major": "npm version major -m `🚀 发布新版本`",
+    "version patch": "npm version patch -m '🚀 发布新版本'",
+    "version minor": "npm version minor -m '🚀 发布新版本'",
+    "version major": "npm version major -m '🚀 发布新版本'",
     "publish": "npm publish"
   },
   "repository": {
