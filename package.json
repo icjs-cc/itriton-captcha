@@ -1,6 +1,6 @@
 {
   "name": "@itriton/captcha",
-  "version": "0.3.3",
+  "version": "0.3.4",
   "description": "生成滑动验证码拼图图片和背景图片",
   "main": "index.js",
   "scripts": {
