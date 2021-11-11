@@ -14,11 +14,13 @@ const opts = {
 const create = async function (options) {
   options = Object.assign({}, opts, options);
   const { width, height, size, url } = options;
+
   let image = url;
   if (isUrl(url)) {
     const axiosData = await axios({ url, responseType: "arraybuffer" });
     image = axiosData.data;
   }
+
   const baseImage = await sharp(image).resize(width, height).png().toBuffer();
   const left = randomRangeNum(size, width - size);
   const top = randomRangeNum(size, height - size);
