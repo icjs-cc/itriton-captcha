@@ -1,5 +1,10 @@
 # itriton-captcha
 
+[![star](https://gitee.com/ibaleine-open-source/itriton-captcha/badge/star.svg?theme=dark)](https://gitee.com/ibaleine-open-source/itriton-captcha/stargazers)
+[![fork](https://gitee.com/ibaleine-open-source/itriton-captcha/badge/fork.svg?theme=dark)](https://gitee.com/ibaleine-open-source/itriton-captcha/members)
+
+[![itriton-captcha](https://img.shields.io/static/v1?label=Github&message=itriton-captcha&color=orange)](https://github.com/icjs-cc/itriton-captcha)
+
 ### 介绍
 生成滑动验证码拼图图片和背景图片
 
