@@ -31,7 +31,6 @@ async function captcha(){
 }
 ```
 
-
 #### 参数
 
 | 属性名    | 类型    | 默认值     | 说明              |
@@ -59,3 +58,9 @@ npm config set sharp_libvips_binary_host "https://npm.taobao.org/mirrors/sharp-l
 
 npm install sharp
 ```
+
+
+### 效果图
+> 结合 [@itriton/uniapp](http://itriton.icjs.ink/itriton/uniapp/start/introduce.html) 组件库的 [行为验证（captcha）](http://itriton.icjs.ink/itriton/uniapp/components/captcha.html)组件的实际效果
+
+![](images/screenshot.png)
