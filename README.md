@@ -5,13 +5,13 @@
 
 [![itriton-captcha](https://img.shields.io/static/v1?label=Github&message=itriton-captcha&color=orange)](https://github.com/icjs-cc/itriton-captcha)
 
-### 介绍
+# 介绍
 生成滑动验证码拼图图片和背景图片
 
-### 安装
+## 安装
 `npm i @itriton/captcha`
 
-### 使用方法
+## 使用方法
 ```
 const captcha = require('@itriton/captcha')
 
@@ -36,7 +36,7 @@ async function captcha(){
 }
 ```
 
-#### 参数
+### 参数
 
 | 属性名    | 类型    | 默认值     | 说明              |
 | --------- | ------- | ---------- | ----------------- |
@@ -45,7 +45,7 @@ async function captcha(){
 | height  | Number  | 144 | 图片高度(px)  |
 | url  | String  | - | 图片路径（支持在线地址）  |
 
-#### 返回值
+### 返回值
 
 | 属性名    | 类型    | 说明     |
 | --------- | ------- | ---------- |
@@ -53,7 +53,7 @@ async function captcha(){
 | jigsawImage    | Base64  | 拼图图片       |
 | x  | Number  |   x轴距离|
 
-### 安装sharp失败的解决方案  
+## 安装sharp失败的解决方案  
 
 切换成淘宝镜像再执行`npm install sharp`命令
 ```
@@ -65,7 +65,25 @@ npm install sharp
 ```
 
 
-### 效果图
+## 效果图
 > 结合 [@itriton/uniapp](http://itriton.icjs.ink/itriton/uniapp/start/introduce.html) 组件库的 [行为验证（captcha）](http://itriton.icjs.ink/itriton/uniapp/components/captcha.html)组件的实际效果
 
 ![](images/screenshot.png)
+
+## 其他开源项目
+
+### 微信小程序商城
+> 基于原生小程序框架的小程序商城
+
+[![star](https://gitee.com/ibaleine-open-source/ibaleine-weapp/badge/star.svg?theme=dark)](https://gitee.com/ibaleine-open-source/ibaleine-weapp/stargazers)
+[![fork](https://gitee.com/ibaleine-open-source/ibaleine-weapp/badge/fork.svg?theme=dark)](https://gitee.com/ibaleine-open-source/ibaleine-weapp/members)
+
+[![ibaleine-weapp](https://img.shields.io/static/v1?label=Github&message=ibaleine-weapp&color=orange)](https://github.com/icjs-cc/ibaleine-weapp.git)
+
+### uni-app组件库
+> @itriton/uniapp，是基于uni-app生态开发的组件库
+
+[![star](https://gitee.com/ibaleine-open-source/itriton-uniapp/badge/star.svg?theme=dark)](https://gitee.com/ibaleine-open-source/ibaleine-weapp/stargazers)
+[![fork](https://gitee.com/ibaleine-open-source/itriton-uniapp/badge/fork.svg?theme=dark)](https://gitee.com/ibaleine-open-source/ibaleine-weapp/members)
+
+[![ibaleine-weapp](https://img.shields.io/static/v1?label=Github&message=itriton-uniapp&color=orange)](https://github.com/icjs-cc/itriton-uniapp.git)
