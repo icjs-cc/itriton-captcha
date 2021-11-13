@@ -72,7 +72,7 @@ npm install sharp
 
 ## 其他开源项目
 
-### 微信小程序商城
+### ibaleine-weapp
 > 基于原生小程序框架的小程序商城
 
 [![star](https://gitee.com/ibaleine-open-source/ibaleine-weapp/badge/star.svg?theme=dark)](https://gitee.com/ibaleine-open-source/ibaleine-weapp/stargazers)
@@ -80,7 +80,7 @@ npm install sharp
 
 [![ibaleine-weapp](https://img.shields.io/static/v1?label=Github&message=ibaleine-weapp&color=orange)](https://github.com/icjs-cc/ibaleine-weapp.git)
 
-### uni-app组件库
+### itriton-uniapp
 > @itriton/uniapp，是基于uni-app生态开发的组件库
 
 [![star](https://gitee.com/ibaleine-open-source/itriton-uniapp/badge/star.svg?theme=dark)](https://gitee.com/ibaleine-open-source/ibaleine-weapp/stargazers)
