@@ -68,7 +68,7 @@ npm install sharp
 ## 效果图
 > 结合 [@itriton/uniapp](http://itriton.icjs.ink/itriton/uniapp/start/introduce.html) 组件库的 [行为验证（captcha）](http://itriton.icjs.ink/itriton/uniapp/components/captcha.html)组件的实际效果
 
-![](images/screenshot.png)
+![](./images/screenshot.png)
 
 ## 其他开源项目
 
